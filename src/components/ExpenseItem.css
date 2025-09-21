@@ -1,0 +1,21 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.expense-item button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.expense-item button:hover {
+  background: darkred;
+}
